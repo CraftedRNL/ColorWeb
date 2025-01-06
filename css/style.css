@@ -1,0 +1,78 @@
+body{
+    background: lightblue;
+    overflow: hidden;
+}
+.encasing{
+    height: 98vh;
+    margin: 10px;
+    padding: 0px;
+    background: rgb(58,58,58);
+background: linear-gradient(90deg, rgba(58,58,58,1) 45%, rgba(16,124,16,1) 100%);
+border-radius: 10px;
+border: 2px white solid;
+display: flexbox;
+}
+.head {
+    background: rgb(16,124,16);
+background: linear-gradient(90deg, rgba(16,124,16,1) 0%, rgba(58,58,58,1) 55%);
+border: 5px black ridge;
+}
+h1 {
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.trid {
+	width: 0;
+	height: 0;
+	border-left: 250px solid transparent;
+	border-right: 250px solid transparent;
+	border-top: 250px solid #dbf595;
+    padding: 0px;
+    position: absolute;
+    top: 25%;
+}
+.triu {
+	width: 0;
+	height: 0;
+	border-left: 250px solid transparent;
+	border-right: 250px solid transparent;
+	border-bottom: 250px solid #88e78d;
+    padding: 0px;
+    position: absolute;
+    bottom: 21%;
+}
+.tril {
+	width: 0;
+	height: 0;
+	border-top: 250px solid transparent;
+	border-right: 250px solid #e78484;
+	border-bottom: 250px solid transparent;
+    position: absolute;
+    left: 49%;
+}
+.trir {
+	width: 0;
+	height: 0;
+	border-top: 250px solid transparent;
+	border-left: 250px solid #88dcf1;
+	border-bottom: 250px solid transparent;
+    position: absolute;
+    right: 49%;
+}
+.triangle{
+    justify-content: center;
+}
+.selector{
+    margin: 10px;
+    bottom: 10%;
+    width: 100%;
+    
+   
+}
+.sel{
+    width: 100px;
+    justify-self: center;
+}
