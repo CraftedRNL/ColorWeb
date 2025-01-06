@@ -10,7 +10,7 @@ body{
 background: linear-gradient(90deg, rgba(58,58,58,1) 45%, rgba(16,124,16,1) 100%);
 border-radius: 10px;
 border: 2px white solid;
-display: flexbox;
+display: flex;
 }
 .head {
     background: rgb(16,124,16);
