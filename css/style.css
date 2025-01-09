@@ -28,7 +28,7 @@ h1 {
     font-family: "Press Start 2P", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 50px;
+    font-size: 3em;
 }
 
 .trid {
@@ -39,7 +39,8 @@ h1 {
 	border-top: 225px solid #dbf595;
     padding: 0px;
     position: absolute;
-    top: 25%;
+    top: 24%;
+    z-index: 1;
 }
 .triu {
 	width: 0;
@@ -50,6 +51,7 @@ h1 {
     padding: 0px;
     position: absolute;
     bottom: 26%;
+    z-index: 1;
 }
 .tril {
 	width: 0;
@@ -59,6 +61,7 @@ h1 {
 	border-bottom: 225px solid transparent;
     position: absolute;
     left: 49%;
+    z-index: 1;
 }
 .trir {
 	width: 0;
@@ -68,6 +71,7 @@ h1 {
 	border-bottom: 225px solid transparent;
     position: absolute;
     right: 49%;
+    z-index: 1;
 }
 .triangle{
     justify-content: center;
@@ -120,33 +124,75 @@ border: #ffffff solid;
     color: #ffffff;
     text-align: center;
   }
+  .btn{
+    border: #000000 solid 1px;
+  }
+  .btn:hover{
+    color: #ffffff;
+    border: white solid 1px;
+  }
   .btn-dark{
     background-color: black;
+    border: #ffffff solid 1px;
+  }
+  .btn-dark:hover{
+    background-color: rgb(126, 126, 126);
+    border: #000000 solid 1px;
   }
   .btn-carbon{
     background-color: rgb(75, 75, 75);
+ 
+  }
+  .btn-carbon:hover{
+    background-color: rgb(12, 10, 0);
   }
   .btn-green{
     background-color: rgb(82, 235, 120);
   }
+  .btn-green:hover{
+    background-color: rgb(9, 107, 0);
+  }
   .btn-shock{
-    background-color: rgb(48, 114, 238);
+    background-color: rgb(105, 154, 245);
+  }
+  .btn-shock:hover{
+    background-color: rgb(1, 37, 138);
   }
   .btn-pulse{
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(247, 106, 106);
+  }
+  .btn-pulse:hover{
+    background-color: rgb(228, 3, 3);
   }
   .btn-nocturnal{
     background-color: rgb(92, 90, 90);
   }
+  .btn-nocturnal:hover{
+    background-color: rgb(75, 95, 67);
+  }
   .btn-lunar{
     background-color: silver;
   }
+  .btn-lunar:hover{
+    background-color: rgb(175, 164, 102);
+  }
   .btn-volt{
-    background-color: rgb(222, 250, 99);
+    background-color: rgb(210, 255, 8);
+   
+  }
+  .btn-volt:hover{
+    background-color: rgb(253, 255, 131);
+    color: #000000;
+    border: black solid 1px;
   }
   .btn-cloud{
-    background-color: rgb(216, 168, 226);
+    background-color: rgb(227, 111, 250);
+  }
+  .btn-cloud:hover{
+    background-color: rgb(255, 178, 249);
   }
   .btn-pink{
     background-color: pink;
+  }.btn-pink:hover{
+    background-color: rgb(255, 73, 240);
   }
