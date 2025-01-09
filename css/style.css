@@ -38,9 +38,10 @@ h1 {
 	border-right: 225px solid transparent;
 	border-top: 225px solid #dbf595;
     padding: 0px;
-    position: absolute;
-    top: 24%;
+    position: relative;
+    top: -3%;
     z-index: 1;
+    right: -12%;
 }
 .triu {
 	width: 0;
@@ -49,8 +50,9 @@ h1 {
 	border-right: 225px solid transparent;
 	border-bottom: 225px solid #88e78d;
     padding: 0px;
-    position: absolute;
-    bottom: 26%;
+    position: relative;
+    right: 12%;
+    bottom: -102%;
     z-index: 1;
 }
 .tril {
@@ -60,7 +62,7 @@ h1 {
 	border-right: 225px solid #e78484;
 	border-bottom: 225px solid transparent;
     position: absolute;
-    left: 49%;
+    left: 50%;
     z-index: 1;
 }
 .trir {
@@ -70,7 +72,7 @@ h1 {
 	border-left: 225px solid #88dcf1;
 	border-bottom: 225px solid transparent;
     position: absolute;
-    right: 49%;
+    right: 50%;
     z-index: 1;
 }
 .triangle{
@@ -126,6 +128,8 @@ border: #ffffff solid;
   }
   .btn{
     border: #000000 solid 1px;
+    margin: 10px;
+    font-family: "Press Start 2P", serif;
   }
   .btn:hover{
     color: #ffffff;
