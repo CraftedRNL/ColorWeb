@@ -12,10 +12,10 @@ var btn3 = document.getElementById("myBtn3");
 var btn4 = document.getElementById("myBtn4");
 
 const words = ["Play like a pro with the all new Xbox Elite Wireless Controller Series 2.", "Tailor the controller with new interchangeable thumbstick and paddle shapes.", "Experience limitless customization and exclusive configuration options with the Xbox Accessories app.", "Stay in the game for longer with up to 40 hours of rechargeable battery life.","Use Xbox Wireless, Bluetooth, or the included USB-C cable to play across your Xbox One and Windows 10 devices","Play like a pro with the Xbox Elite Wireless Controller Series 2 – Core in Blue, featuring adjustable-tension thumb sticks, wrap-around rubberized grip, and shorter hair trigger locks.","Includes just the components you need to unleash your best game. Additional components sold separately for even more customization with the Complete Component Pack for Xbox Elite Wireless Controller Series 2.","Enjoy limitless customization with exclusive button mapping options in the Xbox Accessories app—even pick which color the Xbox button lights up with.","Use Xbox Wireless, Bluetooth®, or the included USB-C® cable to play across your Xbox Series X|S, Xbox One, and Windows PC."];
-const black = ["../img/eblack1.jpg", "../img/eblack2.jpg", "../img/eblack3.jpg", "../img/eblack4.jpg"];
-const blue = ["../img/eblue1.jpg", "../img/eblue2.jpg", "../img/eblue3.jpg", "../img/eblue4.jpg"];
-const white = ["../img/ewhite1.jpg", "../img/ewhite2.jpg", "../img/ewhite3.jpg", "../img/ewhite4.jpg"];
-const red = ["../img/ered1.jpg", "../img/ered2.jpg", "../img/ered3.jpg", "../img/ered4.jpg"];
+const black = ["./img/eblack1.jpg", "./img/eblack2.jpg", "./img/eblack3.jpg", "./img/eblack4.jpg"];
+const blue = ["./img/eblue1.jpg", "./img/eblue2.jpg", "./img/eblue3.jpg", "./img/eblue4.jpg"];
+const white = ["./img/ewhite1.jpg", "./img/ewhite2.jpg", "./img/ewhite3.jpg", "./img/ewhite4.jpg"];
+const red = ["./img/ered1.jpg", "./img/ered2.jpg", "./img/ered3.jpg", "./img/ered4.jpg"];
 
 let color1 = [black, blue, red, white];
 
