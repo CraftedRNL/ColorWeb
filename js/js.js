@@ -89,7 +89,7 @@ document.getElementById('color').addEventListener('click', function(event) {
         const color = event.target.value;
      
         if (color === "Black") {
-            alert("Black");
+            
             for(let i = 0; i < 4; i++){
                 price[i].innerText = "$163.99";
                 anchor[i].href = "https://www.newegg.com/microsoft-fst-00001-controller-black/p/2NG-0026-00112";
@@ -98,7 +98,7 @@ document.getElementById('color').addEventListener('click', function(event) {
                 num=0;
             }
         } else if (color === "Blue") {
-            alert("Blue");
+          
             for(let i = 0; i < 4; i++){
                 price[i].innerText = "$136.85";
                 anchor[i].href = "https://www.newegg.com/p/N82E16874103740";
@@ -108,7 +108,7 @@ document.getElementById('color').addEventListener('click', function(event) {
             }
 
         } else if (color === "Red") {
-            alert("Red");
+            
             for(let i = 0; i < 4; i++){
                 price[i].innerText = "$124.27";
                 anchor[i].href = "https://www.newegg.com/p/N82E16874103739";
@@ -117,7 +117,7 @@ document.getElementById('color').addEventListener('click', function(event) {
                 num=8;
             }
         } else if (color === "White") {
-            alert("White");
+            
             for(let i = 0; i < 4; i++){
                 price[i].innerText = "$123.00";
                 anchor[i].href = "https://www.newegg.com/p/N82E16874103724";
