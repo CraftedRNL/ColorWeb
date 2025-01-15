@@ -154,8 +154,10 @@ window.onclick = function (event) {
     }
 }
 
-
-
+var span = document.getElementsByClassName("close")[0];
+span.onclick = function() {
+    document.getElementById("instruction").style.display = "none";
+  }
 
 
 
